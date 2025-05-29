@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.yurii.coffeevan.coffeevan.VanCoffeeController"
+            prefHeight="600.0" prefWidth="1000.0"
+            styleClass="van-content-dialog"
+            stylesheets="@styles.css">
+
+    <!-- TOP -->
+    <top>
+        <VBox>
+            <HBox spacing="10" styleClass="header">
+                <padding>
+                    <Insets top="15" right="15" bottom="15" left="15"/>
+                </padding>
+                <Label fx:id="vanInfoLabel" styleClass="header-text"/>
+            </HBox>
+            
+            <!-- Інформаційна панель -->
+            <HBox spacing="20" styleClass="info-panel">
+                <padding>
+                    <Insets top="10" right="15" bottom="10" left="15"/>
+                </padding>
+                <Label fx:id="totalVolumeLabel" styleClass="info-value"/>
+                <Label fx:id="totalWeightLabel" styleClass="info-value"/>
+                <Label fx:id="averageQualityLabel" styleClass="info-value"/>
+                <Label fx:id="totalPriceLabel" styleClass="info-value"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- CENTER -->
+    <center>
+        <VBox spacing="10" styleClass="content-area">
+            <padding>
+                <Insets top="10" right="15" bottom="10" left="15"/>
+            </padding>
+            
+            <!-- Фільтри -->
+            <HBox spacing="10" styleClass="filters-bar">
+                <padding>
+                    <Insets top="10" right="15" bottom="10" left="15"/>
+                </padding>
+                <Label text="Фільтр за типом:" styleClass="filter-label"/>
+                <ComboBox fx:id="typeFilter" promptText="Виберіть тип" prefWidth="150"/>
+                <Label text="Тип якості:" styleClass="filter-label"/>
+                <ChoiceBox fx:id="qualityTypeChoice" prefWidth="150"/>
+                <Pane HBox.hgrow="ALWAYS"/>
+                <Button fx:id="resetFiltersButton" text="Скинути фільтри" 
+                        styleClass="warning-button"/>
+            </HBox>
+            
+            <!-- Таблиця -->
+            <TableView fx:id="coffeeTable" VBox.vgrow="ALWAYS" styleClass="coffee-table">
+                <columns>
+                    <TableColumn fx:id="nameColumn" text="Назва" prefWidth="200"/>
+                    <TableColumn fx:id="typeColumn" text="Тип" prefWidth="150"/>
+                    <TableColumn fx:id="volumeColumn" text="Обʼєм (мл)" prefWidth="120"/>
+                    <TableColumn fx:id="priceColumn" text="Ціна (₴)" prefWidth="120"/>
+                    <TableColumn fx:id="weightColumn" text="Вага (г)" prefWidth="120"/>
+                    <TableColumn fx:id="qualityColumn" text="Якість" prefWidth="100"/>
+                    <TableColumn fx:id="qualityTypeColumn" text="Тип якості" prefWidth="150"/>
+                    <TableColumn fx:id="quantityColumn" text="Кількість" prefWidth="100"/>
+                </columns>
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+            </TableView>
+        </VBox>
+    </center>
+
+    <!-- BOTTOM -->
+    <bottom>
+        <HBox spacing="10" styleClass="action-bar">
+            <padding>
+                <Insets top="15" right="15" bottom="15" left="15"/>
+            </padding>
+            <Pane HBox.hgrow="ALWAYS"/>
+            <Button fx:id="closeButton" text="Закрити" onAction="#handleClose" 
+                    styleClass="warning-button"/>
+        </HBox>
+    </bottom>
+    
+</BorderPane> 

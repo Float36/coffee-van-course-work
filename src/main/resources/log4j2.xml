@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Properties>
+        <Property name="logPath">logs</Property>
+        <Property name="rollingFileName">coffee-van</Property>
+    </Properties>
+    
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        
+        <RollingFile name="RollingFile"
+                     fileName="${logPath}/${rollingFileName}.log"
+                     filePattern="${logPath}/${rollingFileName}-%d{yyyy-MM-dd}-%i.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="10MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+        
+        <SMTP name="MailAppender"
+              subject="Coffee Van Critical Error"
+              to="yurastashchyshyn@gmail.com"
+              from="javatestlogger@gmail.com"
+              smtpHost="smtp.gmail.com"
+              smtpPort="465"
+              smtpUsername="javatestlogger@gmail.com"
+              smtpPassword="fqcy tttx blxq luqj"
+              bufferSize="50"
+              smtpProtocol="smtps"
+              smtpStarttls="true"
+              smtpAuth="true"
+              smtpDebug="true">
+            <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </SMTP>
+    </Appenders>
+    
+    <Loggers>
+        <!-- Головний логер для всього додатку -->
+        <Logger name="com.yurii.coffeevan.coffeevan" level="info" additivity="false">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Logger>
+
+        <!-- Окремий логер для критичних помилок з відправкою на пошту -->
+        <Logger name="com.yurii.coffeevan.coffeevan.error" level="error" additivity="false">
+            <AppenderRef ref="MailAppender"/>
+        </Logger>
+
+        <!-- Root логер для всіх інших логів -->
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+    </Loggers>
+</Configuration> 

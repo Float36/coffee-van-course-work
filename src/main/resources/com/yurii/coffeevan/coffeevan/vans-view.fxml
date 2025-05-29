@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.yurii.coffeevan.coffeevan.VansController"
+            prefHeight="500.0" prefWidth="800.0"
+            stylesheets="@styles.css">
+
+    <!-- TOP -->
+    <top>
+        <VBox>
+            <HBox spacing="10" styleClass="header">
+                <padding>
+                    <Insets top="15" right="15" bottom="15" left="15"/>
+                </padding>
+                <Label text="Фургони з завантаженою кавою" styleClass="header-text"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <!-- CENTER -->
+    <center>
+        <VBox spacing="10" styleClass="content-area">
+            <padding>
+                <Insets top="10" right="15" bottom="10" left="15"/>
+            </padding>
+            
+            <TableView fx:id="vansTable" VBox.vgrow="ALWAYS" styleClass="coffee-table">
+                <columns>
+                    <TableColumn fx:id="idColumn" text="ID" prefWidth="100"/>
+                    <TableColumn fx:id="volumeColumn" text="Загальний об'єм (мл)" prefWidth="300"/>
+                    <TableColumn fx:id="dateColumn" text="Дата створення" prefWidth="350"/>
+                </columns>
+                <columnResizePolicy>
+                    <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+                </columnResizePolicy>
+            </TableView>
+        </VBox>
+    </center>
+
+    <!-- BOTTOM -->
+    <bottom>
+        <HBox spacing="10" styleClass="action-bar">
+            <padding>
+                <Insets top="15" right="15" bottom="15" left="15"/>
+            </padding>
+            <Button fx:id="deleteButton" text="Видалити фургон" onAction="#handleDeleteVan" 
+                    disable="true" styleClass="danger-button"/>
+            <Button fx:id="showCoffeeButton" text="Показати вміст фургону" 
+                    onAction="#handleShowCoffee" styleClass="action-button"/>
+            <Pane HBox.hgrow="ALWAYS" />
+            <Button fx:id="closeButton" text="Закрити" onAction="#handleClose" 
+                    styleClass="warning-button"/>
+        </HBox>
+    </bottom>
+    
+</BorderPane> 
