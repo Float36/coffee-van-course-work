@@ -58,7 +58,7 @@ public class VanController {
     @FXML private TableColumn<Coffee, String> qualityTypeColumn;
     @FXML private TableColumn<Coffee, Integer> quantityColumn;
 
-    private Van van;        // Модель фургону
+    private Van van;                                // Модель фургону
     private ObservableList<Coffee> allCoffee;       // Список усієї кави у фургоні
     private FilteredList<Coffee> filteredCoffee;    // Відфільтрований список кави
     private SortedList<Coffee> sortedCoffee;        // Відсортований список кави

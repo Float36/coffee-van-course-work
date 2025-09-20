@@ -1,0 +1,236 @@
+10:14:55.201 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+10:14:55.282 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+10:14:56.563 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+10:14:57.403 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+10:15:53.158 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: jacobs (Розчинна (банка)), volume: 440ml, quantity: 134
+10:16:19.239 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: nescafe (Розчинна (банка)), volume: 440ml, quantity: 110
+10:16:27.062 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Deleted coffee: jacobs from van
+10:16:30.288 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Van saved successfully with ID: 332, total volume: 48400ml
+10:16:33.919 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 9 vans from database
+10:16:33.920 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+10:16:33.998 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+10:16:53.219 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+10:16:53.220 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #332
+10:16:53.253 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 1 coffee items
+10:16:53.309 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #332
+10:17:04.525 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Closed coffee contents window
+10:17:09.775 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Deleted van #332
+10:17:13.317 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+10:17:13.317 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #311
+10:17:13.346 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 9 coffee items
+10:17:13.406 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #311
+10:17:44.999 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Filters reset to default values
+10:17:46.737 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Closed coffee contents window
+10:18:10.652 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Clearing van with 1 coffee items
+10:18:52.825 [main] ERROR com.yurii.coffeevan.coffeevan - TEST EMAIL: Перевірка налаштування відправки email через SSL
+10:18:57.989 [main] INFO  com.yurii.coffeevan.coffeevan - This is an INFO test message
+10:18:57.989 [main] WARN  com.yurii.coffeevan.coffeevan - This is a WARNING test message
+10:18:57.991 [main] ERROR com.yurii.coffeevan.coffeevan - This is an ERROR test message
+10:18:57.997 [main] ERROR com.yurii.coffeevan.coffeevan - This is an ERROR message with exception
+java.lang.RuntimeException: Test exception
+	at com.yurii.coffeevan.coffeevan.util.LoggerUtilTest.testAllLoggingLevels(LoggerUtilTest.java:23) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727) ~[junit-platform-commons-1.9.2.jar:1.9.2]
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68) ~[junit-jupiter-engine-5.9.2.jar:5.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at java.util.ArrayList.forEach(ArrayList.java:1596) ~[?:?]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54) ~[junit-platform-engine-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55) ~[junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53) [junit-platform-launcher-1.9.2.jar:1.9.2]
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57) [junit5-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11) [idea_rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55) [junit-rt.jar:?]
+10:27:15.204 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+10:27:15.217 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+10:27:15.721 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+10:27:16.214 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+10:27:37.760 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: якобс (Розчинна (банка)), volume: 440ml, quantity: 186
+10:27:52.962 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Deleted coffee: якобс from van
+10:27:57.262 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 8 vans from database
+10:27:57.262 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+10:27:57.311 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+10:28:03.876 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+10:28:03.877 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #311
+10:28:03.912 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 9 coffee items
+10:28:04.043 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #311
+10:28:23.253 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Closed coffee contents window
+10:28:36.314 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: якобс (Розчинна (банка)), volume: 440ml, quantity: 34
+10:28:56.319 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: якобс (Розчинна (банка)), volume: 600ml, quantity: 1000
+10:28:56.544 [JavaFX Application Thread] WARN  com.yurii.coffeevan.coffeevan - Attempt to add coffee with empty name
+10:29:21.239 [JavaFX Application Thread] WARN  com.yurii.coffeevan.coffeevan - Attempt to exceed van capacity: 20614960 ml (max: 5000000.0 ml)
+10:29:40.171 [JavaFX Application Thread] WARN  com.yurii.coffeevan.coffeevan - Attempt to exceed van capacity: 20614960 ml (max: 5000000.0 ml)
+10:29:58.387 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Clearing van with 2 coffee items
+11:10:40.586 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+11:10:40.600 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+11:10:41.125 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+11:10:41.559 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+11:11:13.078 [JavaFX Application Thread] ERROR com.yurii.coffeevan.coffeevan - Failed to add coffee
+java.lang.IllegalArgumentException: Об'єм має бути більше 0
+	at com.yurii.coffeevan.coffeevan.model.Coffee.<init>(Coffee.java:22) ~[classes/:?]
+	at com.yurii.coffeevan.coffeevan.model.BeanCoffee.<init>(BeanCoffee.java:8) ~[classes/:?]
+	at com.yurii.coffeevan.coffeevan.VanController.handleAddCoffee(VanController.java:263) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.Trampoline.invoke(MethodUtil.java:77) ~[javafx-base-17.0.6-win.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at com.sun.javafx.reflect.MethodUtil.invoke(MethodUtil.java:275) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.fxml.MethodHelper.invoke(MethodHelper.java:84) ~[javafx-fxml-17.0.6-win.jar:?]
+	at javafx.fxml.FXMLLoader$MethodHandler.invoke(FXMLLoader.java:1854) ~[javafx-fxml-17.0.6-win.jar:?]
+	at javafx.fxml.FXMLLoader$ControllerMethodEventHandler.handle(FXMLLoader.java:1724) ~[javafx-fxml-17.0.6-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:86) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:49) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.scene.Node.fireEvent(Node.java:8792) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.scene.control.Button.fire(Button.java:203) ~[javafx-controls-17.0.6-win.jar:?]
+	at com.sun.javafx.scene.control.behavior.ButtonBehavior.mouseReleased(ButtonBehavior.java:208) ~[javafx-controls-17.0.6-win.jar:?]
+	at com.sun.javafx.scene.control.inputmap.InputMap.handle(InputMap.java:274) ~[javafx-controls-17.0.6-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler$NormalEventHandlerRecord.handleBubblingEvent(CompositeEventHandler.java:247) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.CompositeEventHandler.dispatchBubblingEvent(CompositeEventHandler.java:80) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:234) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventHandlerManager.dispatchBubblingEvent(EventHandlerManager.java:191) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.CompositeEventDispatcher.dispatchBubblingEvent(CompositeEventDispatcher.java:59) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:58) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.BasicEventDispatcher.dispatchEvent(BasicEventDispatcher.java:56) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventDispatchChainImpl.dispatchEvent(EventDispatchChainImpl.java:114) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEventImpl(EventUtil.java:74) ~[javafx-base-17.0.6-win.jar:?]
+	at com.sun.javafx.event.EventUtil.fireEvent(EventUtil.java:54) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.event.Event.fireEvent(Event.java:198) ~[javafx-base-17.0.6-win.jar:?]
+	at javafx.scene.Scene$MouseHandler.process(Scene.java:3897) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.scene.Scene.processMouseEvent(Scene.java:1878) ~[javafx-graphics-17.0.6-win.jar:?]
+	at javafx.scene.Scene$ScenePeerListener.mouseEvent(Scene.java:2623) ~[javafx-graphics-17.0.6-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:411) ~[javafx-graphics-17.0.6-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler$MouseEventNotification.run(GlassViewEventHandler.java:301) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.lambda$handleMouseEvent$2(GlassViewEventHandler.java:450) ~[javafx-graphics-17.0.6-win.jar:?]
+	at com.sun.javafx.tk.quantum.QuantumToolkit.runWithoutRenderLock(QuantumToolkit.java:424) ~[javafx-graphics-17.0.6-win.jar:?]
+	at com.sun.javafx.tk.quantum.GlassViewEventHandler.handleMouseEvent(GlassViewEventHandler.java:449) ~[javafx-graphics-17.0.6-win.jar:?]
+	at com.sun.glass.ui.View.handleMouseEvent(View.java:557) ~[javafx-graphics-17.0.6-win.jar:?]
+	at com.sun.glass.ui.View.notifyMouse(View.java:943) ~[javafx-graphics-17.0.6-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method) ~[javafx-graphics-17.0.6-win.jar:?]
+	at com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:184) ~[javafx-graphics-17.0.6-win.jar:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+11:11:55.042 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Clearing van with 0 coffee items
+11:17:17.735 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+11:17:17.749 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+11:17:18.262 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+11:17:18.703 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+11:17:58.542 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: jacobs (Розчинна (банка)), volume: 440ml, quantity: 160
+11:19:06.192 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: nescafe (Розчинна (банка)), volume: 440ml, quantity: 67
+11:19:12.051 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Deleted coffee: jacobs from van
+11:19:36.108 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: nescafe (Розчинна (банка)), volume: 445ml, quantity: 50
+11:19:49.503 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Van saved successfully with ID: 343, total volume: 51730ml
+11:19:53.305 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Clearing van with 2 coffee items
+11:19:56.254 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 9 vans from database
+11:19:56.254 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+11:19:56.287 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+11:20:00.777 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+11:20:00.778 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #343
+11:20:00.796 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 2 coffee items
+11:20:00.844 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #343
+11:20:06.927 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Closed coffee contents window
+11:20:09.697 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+11:20:09.698 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #311
+11:20:09.716 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 9 coffee items
+11:20:09.764 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #311
+11:20:23.049 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Filters reset to default values
+11:20:49.227 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+11:20:49.241 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+11:20:49.744 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+11:20:50.192 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+11:21:21.566 [JavaFX Application Thread] WARN  com.yurii.coffeevan.coffeevan - Attempt to add coffee with empty name
+11:21:33.028 [JavaFX Application Thread] WARN  com.yurii.coffeevan.coffeevan - Attempt to add coffee with no type selected
+11:21:50.414 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Van saved successfully with ID: 344, total volume: 0ml
+11:21:59.379 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 10 vans from database
+11:21:59.379 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+11:21:59.459 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+11:22:01.705 [JavaFX Application Thread] WARN  com.yurii.coffeevan.coffeevan - Attempt to show coffee contents without selecting a van
+11:22:05.736 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+11:22:05.737 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #344
+11:22:05.754 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 0 coffee items
+11:22:05.789 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #344
+11:22:48.665 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Closed coffee contents window
+11:23:03.025 [JavaFX Application Thread] WARN  com.yurii.coffeevan.coffeevan - Attempt to add coffee with empty name
+11:23:07.004 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Van saved successfully with ID: 345, total volume: 0ml
+11:23:14.781 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 11 vans from database
+11:23:14.781 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+11:23:14.830 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+11:23:23.837 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+11:23:23.837 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #345
+11:23:23.854 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 0 coffee items
+11:23:23.906 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #345
+11:23:30.321 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Closed coffee contents window
+11:23:44.857 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 11 vans from database
+11:23:44.858 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+11:23:44.900 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+11:23:49.450 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Deleted van #345

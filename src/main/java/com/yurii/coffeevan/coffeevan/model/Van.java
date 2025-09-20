@@ -7,7 +7,7 @@ import com.yurii.coffeevan.coffeevan.model.*;
 // клас фургон який керує зберіганням та сортуванням кави
 public class Van {
 
-    private static final double MAX_CAPACITY = 5000000.0; // у мілілітрах (мл)
+    private static final double MAX_CAPACITY = 5000000.0; // максимальний об'єм у мілілітрах (мл)
     private List<Coffee> coffeeList;
     private double currentVolume;
 
@@ -46,7 +46,7 @@ public class Van {
         return new ArrayList<>(coffeeList); // повертаємо копію для безпеки
     }
 
-    // Загальна об'єм усієї кави
+    // Загальний об'єм усієї кави
     public int getTotalVolume() {
         int totalVolume = 0;
         for (Coffee coffee : coffeeList){

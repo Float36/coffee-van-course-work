@@ -1,0 +1,30 @@
+19:52:19.100 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+19:52:19.114 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+19:52:19.600 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+19:52:19.999 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+19:52:21.654 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 7 vans from database
+19:52:21.654 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+19:52:21.731 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+21:06:08.224 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+21:06:08.238 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+21:06:08.760 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+21:06:09.193 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+21:11:15.860 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: jacobs (Зернова), volume: 300ml, quantity: 92
+21:14:04.062 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: jacobs (Мелена), volume: 500ml, quantity: 170
+21:16:14.875 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: jacobs (Розчинна (пакетик)), volume: 5ml, quantity: 603
+21:20:17.415 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: Nescafe Classic (Мелена), volume: 200ml, quantity: 352
+21:22:41.815 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: Nescafe Classic (Розчинна (пакетик)), volume: 7ml, quantity: 777
+21:25:55.561 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: Lavazza (Зернова), volume: 1100ml, quantity: 202
+21:28:14.909 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: Cafe d`Or Gold (Розчинна (банка)), volume: 185ml, quantity: 300
+21:31:00.795 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: Lavazza Espresso (Розчинна (банка)), volume: 450ml, quantity: 352
+21:33:18.506 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Added new coffee: Ferarra (Мелена), volume: 230ml, quantity: 593
+21:34:30.219 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Van saved successfully with ID: 311, total volume: 763944ml
+21:34:33.150 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 8 vans from database
+21:34:33.151 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+21:34:33.185 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+21:34:35.093 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+21:34:35.093 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #311
+21:34:35.111 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 9 coffee items
+21:34:35.155 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #311
+21:35:00.630 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Filters reset to default values
+21:35:01.969 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Closed coffee contents window

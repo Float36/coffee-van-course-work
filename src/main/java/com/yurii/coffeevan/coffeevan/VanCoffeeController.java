@@ -147,16 +147,6 @@ public class VanCoffeeController {
     }
 
 
-//    private int getMinQualityForType(String qualityType) {
-//        return switch (qualityType) {
-//            case "Низька якість" -> 1;
-//            case "Нижче середньої" -> 21;
-//            case "Середня" -> 41;
-//            case "Висока" -> 61;
-//            case "Преміум" -> 81;
-//            default -> 0;
-//        };
-//    }
 
     // Фільтрація списку кави за обраними критеріями
     private void applyFilter() {

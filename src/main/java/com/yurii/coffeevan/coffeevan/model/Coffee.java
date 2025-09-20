@@ -7,10 +7,10 @@ public class Coffee {
     protected int volume;           // об'єм
     protected double price;
     protected int weight;
-    protected int quality;          // кількість
-    protected int quantity;         // якість
+    protected int quality;          // якість
+    protected int quantity;         // кількість
 
-    //
+    // конструктор з перевіркою
     public Coffee(String name, String type, int volume, double price, int weight, int quality, int quantity) {
         if (name == null || name.trim().isEmpty()) {
             throw new IllegalArgumentException("Ім'я кави не може бути порожнім");

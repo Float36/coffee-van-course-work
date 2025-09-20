@@ -1,7 +1,16 @@
-19:52:19.100 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
-19:52:19.114 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
-19:52:19.600 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
-19:52:19.999 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
-19:52:21.654 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 7 vans from database
-19:52:21.654 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
-19:52:21.731 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+12:49:45.469 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+12:49:45.488 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+12:49:46.158 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+12:49:46.608 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+14:11:02.230 [main] INFO  com.yurii.coffeevan.coffeevan - Initializing application...
+14:11:02.246 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Starting Coffee Van application...
+14:11:02.766 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application initialized successfully
+14:11:03.180 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Application UI loaded successfully
+14:11:07.204 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 10 vans from database
+14:11:07.204 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Vans view initialized successfully
+14:11:07.295 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened vans view window
+14:11:09.440 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Coffee contents view initialized successfully
+14:11:09.441 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Set van info for van #130
+14:11:09.494 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Loaded 2 coffee items
+14:11:09.576 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Opened coffee contents window for van #130
+14:11:11.118 [JavaFX Application Thread] INFO  com.yurii.coffeevan.coffeevan - Closed coffee contents window

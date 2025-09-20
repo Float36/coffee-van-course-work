@@ -30,7 +30,6 @@ public class DatabaseConnection {
         try (Connection conn = getConnection();
              Statement stmt = conn.createStatement()) {
             
-            // Create vans table
             stmt.execute("""
                 CREATE TABLE IF NOT EXISTS vans (
                     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -39,7 +38,6 @@ public class DatabaseConnection {
                 )
             """);
 
-            // Create coffee table
             stmt.execute("""
                 CREATE TABLE IF NOT EXISTS coffee (
                     id INT AUTO_INCREMENT PRIMARY KEY,
